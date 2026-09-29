@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Product | NESTA</title><link rel="stylesheet" href="css/styles.css"></head><body>
+<div class="utility"><div class="container"><span>Free shipping over $75 · Easy returns</span><span>support@nesta-family.example · +1 (919) 555-0175</span></div></div>
+<header><div class="container nav">
+<a href="index.html"><img class="logo" src="assets/branding/nesta-logo.jpg" alt="NESTA Family Essentials"></a>
+<nav class="navlinks"><a class="" href="shop.html">Shop</a><a class="" href="baby-essentials.html">Baby Essentials</a><a class="" href="nursery.html">Nursery</a><a class="" href="feeding.html">Feeding</a><a class="" href="bath-care.html">Bath & Care</a><a class="" href="parent-bags.html">Parent Bags</a><a class="" href="travel.html">Travel</a><a class="" href="toys.html">Toys</a><a class="" href="gifts.html">Gifts</a></nav>
+<div class="icons"><a class="pill" href="saved.html">Saved <span data-save-count>0</span></a><a class="pill" href="cart.html">Kit <span data-cart-count>0</span></a></div>
+</div></header>
+<main><div class="container page-title"><div class="breadcrumbs">Home / Product</div><div id="product"></div></div>
+<script>
+const products=[["Diaper Bag Backpack", "Parent Bags", 89, "A roomy everyday backpack with organized compartments for parents on the move.", "product-01.webp"], ["Wooden Baby Play Gym", "Toys & Activity", 59, "A warm wooden activity center designed for gentle play and discovery.", "product-02.webp"], ["Convertible High Chair", "Feeding", 129, "A clean, practical feeding chair designed to grow with everyday routines.", "product-03.webp"], ["Silicone Feeding Set", "Feeding", 39, "Soft-toned bowls and utensils for simple, organized mealtimes.", "product-04.webp"], ["Foldable Baby Bath Tub", "Bath & Care", 49, "A compact bathing essential designed for calm routines at home or away.", "product-05.webp"], ["Plush Stuffed Bunny", "Toys & Activity", 29, "A soft companion for nursery spaces, playtime and quiet moments.", "product-06.webp"], ["Nursery Storage Organizer", "Home Organization", 69, "Structured storage for everyday nursery essentials and small accessories.", "product-07.webp"], ["Wooden Activity Walker", "Toys & Activity", 79, "A tactile wooden walker that adds movement and play to growing routines.", "product-08.webp"], ["Soft Nursery Swaddle", "Baby Essentials", 24, "A cozy, breathable layer for peaceful nursery routines.", "product-09.webp"], ["Newborn Comfort Set", "Baby Essentials", 42, "A curated set of gentle essentials for the first days at home.", "product-10.webp"], ["Cozy Nursery Blanket", "Nursery", 36, "A soft decorative layer for cribs, chairs and quiet family moments.", "product-11.webp"], ["Playroom Story Basket", "Home Organization", 44, "A warm storage piece for books, toys and small everyday treasures.", "product-12.webp"]];
+const params=new URLSearchParams(location.search);
+const id=Number(params.get('id')||1);
+const p=products[id-1]||products[0];
+const wrap=document.getElementById('product');
+const grid=document.createElement('div'); grid.className='product-detail';
+const image=document.createElement('img'); image.src='assets/products/'+p[4]; image.alt=p[0];
+const detail=document.createElement('div'); detail.className='detail';
+detail.innerHTML='<span class="tag">'+p[1]+'</span><h1>'+p[0]+'</h1><p class="price">$'+p[2].toFixed(2)+'</p><p>'+p[3]+'</p><p>Designed for practical family routines with a warm, considered aesthetic and useful everyday details.</p><ul><li>Thoughtful family-focused design</li><li>Easy to use and store</li><li>Curated for everyday routines</li><li>Demo product for this storefront</li></ul><button class="btn" onclick="addToCart('+id+')">Add to family kit</button>';
+grid.append(image,detail); wrap.append(grid);
+</script></body></html>
