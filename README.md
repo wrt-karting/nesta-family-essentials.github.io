@@ -147,3 +147,19 @@ NESTA should feel:
 The design intentionally avoids overly bright children's-store colors and instead uses a refined family-home palette.
 
 © 2026 NESTA Family Essentials
+
+## V2 — Image System Fix
+
+This version replaces the previous externally referenced product imagery with individually assigned local assets.
+
+### Image improvements
+- Every one of the 12 products has its own image asset.
+- No product card reuses another product's image.
+- Product images use `object-fit: contain` so the subject stays fully visible.
+- Category images are locally bundled and use non-cropping presentation.
+- Hero imagery is also bundled locally.
+- The image system no longer depends on third-party image URLs for the storefront visuals.
+- Assets are provided as optimized PNG files plus SVG originals.
+
+### V2 quality target
+The image area is designed as a consistent product catalog system: centered subject, generous margins, warm neutral background, no text embedded in product artwork, no prices, no web screenshots, and no accidental cropping.
