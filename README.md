@@ -42,3 +42,9 @@ HTML5 · CSS3 · JavaScript · JSON · SVG
 Proyecto en desarrollo / demo storefront.
 
 © 2026 NESTA Family Essentials
+
+
+### V5 image corrections
+- Transparent NESTA logo asset (`assets/logo.png`) with the white square removed.
+- Clean hero photograph separated from the hero copy so text is never baked into the photo and the baby is not cropped by the text column.
+- Hero image is local and uses a dedicated photo region with controlled object positioning.

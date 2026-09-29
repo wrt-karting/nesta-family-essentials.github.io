@@ -8,3 +8,7 @@ All 9 category files are dedicated photographs displayed edge-to-edge inside a c
 
 ## Logo
 `assets/logo.jpg` is the approved NESTA logo supplied for the storefront.
+
+### V5
+- `logo.png`: transparent circular NESTA logo, no white square.
+- `images/hero-family-real.jpg`: clean photographic hero region, separated from HTML copy.
