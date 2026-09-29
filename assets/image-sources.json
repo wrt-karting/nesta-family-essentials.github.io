@@ -1,29 +1,22 @@
 {
-  "hero": "assets/images/hero-family.png",
-  "categories": {
-    "Baby Essentials": "assets/images/category-baby-essentials.png",
-    "Parent Bags": "assets/images/category-parent-bags.png",
-    "Nursery &amp; Decor": "assets/images/category-nursery-decor.png",
-    "Feeding": "assets/images/category-feeding.png",
-    "Toys &amp; Activity": "assets/images/category-toys-activity.png",
-    "Bath &amp; Care": "assets/images/category-bath-care.png",
-    "Home Organization": "assets/images/category-home-organization.png",
-    "Family Travel": "assets/images/category-family-travel.png",
-    "Gifts &amp; Sets": "assets/images/category-gifts-sets.png"
+  "brand": {
+    "logo": "assets/logo.jpg",
+    "note": "Exact master logo supplied for NESTA in this conversation."
+  },
+  "hero": {
+    "file": "assets/images/hero-family-real.jpg",
+    "type": "local photographic hero asset"
   },
   "products": {
-    "Diaper Bag Backpack": "assets/images/diaper-bag.png",
-    "Wooden Baby Play Gym": "assets/images/play-gym.png",
-    "Convertible High Chair": "assets/images/high-chair.png",
-    "Silicone Feeding Set": "assets/images/feeding-set.png",
-    "Foldable Baby Bath Tub": "assets/images/bath-tub.png",
-    "Plush Stuffed Bunny": "assets/images/bunny.png",
-    "Nursery Storage Organizer": "assets/images/storage-organizer.png",
-    "Wooden Activity Walker": "assets/images/activity-walker.png",
-    "Everyday Diaper Tote": "assets/images/diaper-tote.png",
-    "Soft Nursery Basket Set": "assets/images/basket-set.png",
-    "Calm Bath-Time Set": "assets/images/bath-set.png",
-    "Little Moments Gift Set": "assets/images/gift-set.png"
+    "source_type": "original catalog-style imagery prepared for this demo storefront",
+    "storage": "local",
+    "format": "JPEG",
+    "product_count": 12,
+    "image_rule": "One unique local image per product card; centered with object-fit: contain."
   },
-  "note": "V2 uses locally bundled, individually assigned artwork for product/category imagery so cards do not depend on external image URLs and no product image is reused."
+  "categories": {
+    "source_type": "local editorial category imagery derived from the store catalog",
+    "storage": "local",
+    "category_count": 9
+  }
 }
