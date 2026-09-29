@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Diaper Bag Backpack",
+    "category": "Parent Bags",
+    "description": "A structured everyday backpack with dedicated pockets for bottles, wipes and changing essentials.",
+    "price": "$89.00",
+    "image": "assets/images/products/diaper-bag-backpack.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Wooden Baby Play Gym",
+    "category": "Toys & Activity",
+    "description": "A natural wood activity center with soft hanging shapes for calm, tactile play.",
+    "price": "$59.00",
+    "image": "assets/images/products/wooden-baby-play-gym.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Convertible High Chair",
+    "category": "Feeding",
+    "description": "A comfortable feeding chair with a removable tray and adjustable wooden footrest.",
+    "price": "$129.00",
+    "image": "assets/images/products/convertible-high-chair.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Silicone Feeding Set",
+    "category": "Feeding",
+    "description": "A coordinated sage set with divided plate, bowl, cup, bib and child-friendly utensils.",
+    "price": "$39.00",
+    "image": "assets/images/products/silicone-feeding-set.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Foldable Baby Bath Tub",
+    "category": "Bath & Care",
+    "description": "A compact foldable tub with supportive contours for easy bath routines at home or away.",
+    "price": "$49.00",
+    "image": "assets/images/products/foldable-baby-bath-tub.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Plush Stuffed Bunny",
+    "category": "Toys & Activity",
+    "description": "A soft neutral bunny made for nursery shelves, quiet play and cozy moments.",
+    "price": "$29.00",
+    "image": "assets/images/products/plush-stuffed-bunny.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Nursery Storage Organizer",
+    "category": "Home Organization",
+    "description": "A woven storage basket designed to keep blankets, diapers and small care items together.",
+    "price": "$42.00",
+    "image": "assets/images/products/nursery-storage-organizer.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Wooden Activity Walker",
+    "category": "Toys & Activity",
+    "description": "A sturdy wooden walker combining movement with a detailed Montessori-inspired activity panel.",
+    "price": "$69.00",
+    "image": "assets/images/products/wooden-activity-walker.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Everyday Diaper Tote",
+    "category": "Parent Bags",
+    "description": "A quilted carryall with bottle pockets, shoulder strap and easy-access front storage.",
+    "price": "$74.00",
+    "image": "assets/images/products/everyday-diaper-tote.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Calm Bath-Time Set",
+    "category": "Bath & Care",
+    "description": "A gentle collection with hooded towel, rinse cup, brush and natural sponge for bath time.",
+    "price": "$35.00",
+    "image": "assets/images/products/calm-bath-time-set.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Portable Changing Mat",
+    "category": "Baby Essentials",
+    "description": "A padded changing station that folds compactly with built-in pockets for diapers and wipes.",
+    "price": "$38.00",
+    "image": "assets/images/products/portable-changing-mat.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Little Moments Gift Set",
+    "category": "Gifts & Sets",
+    "description": "A neutral newborn bundle with plush bunny, swaddle, towel, brush, rattle and tiny knitwear.",
+    "price": "$64.00",
+    "image": "assets/images/products/little-moments-gift-set.jpg"
+  },
+  {
+    "id": 13,
+    "name": "NESTA Everyday Stroller",
+    "category": "Family Travel",
+    "description": "A full-size stroller with a large canopy, padded seat and roomy under-seat basket.",
+    "price": "$179.00",
+    "image": "assets/images/products/baby-stroller.jpg"
+  }
+]

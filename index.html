@@ -1,112 +1,33 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="NESTA Family Essentials — practical accessories for parents, babies and organized family life.">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="NESTA Family Essentials — practical, beautiful essentials for babies, parents and organized family life.">
 <title>NESTA — Family Essentials</title>
-<link rel="icon" href="assets/favicon.png" type="image/png">
-<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="assets/favicon.png"><link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="announcement">Thoughtful family essentials · Designed for everyday routines · Support available 7 days</div>
-
-<header class="site-header">
-  <a class="brand" href="#top" aria-label="NESTA home"><img src="assets/logo.jpg" alt="NESTA Family Essentials"></a>
-  <nav class="main-nav" aria-label="Primary">
-    <a href="#shop">Shop</a><a href="#categories">Collections</a><a href="#story">Our approach</a><a href="#support">Support</a>
-  </nav>
-  <div class="header-actions">
-    <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
-    <button class="icon-btn" id="bagBtn" aria-label="Open bag">Bag <span id="bagCount">0</span></button>
-  </div>
-</header>
-
-<main id="top">
-<section class="hero">
-  <div class="hero-media"><img src="assets/images/hero-family-real.jpg" alt="Warm family moment in a nursery setting"></div>
-  <div class="hero-copy">
-    <p class="eyebrow">FAMILY ESSENTIALS</p>
-    <h1>For every small moment that matters.</h1>
-    <p>Practical essentials for parents, babies and an organized, happy family life.</p>
-    <a class="primary-btn" href="#shop">Shop the collection <span>→</span></a>
-  </div>
-</section>
-
-<section class="intro-strip" id="story">
-  <div><span class="mini-label">NESTA STANDARD</span><h2>Useful first. Beautiful always.</h2></div>
-  <p>We curate simple pieces that fit naturally into real family routines — from first nursery setup to weekend travel and everyday mealtimes.</p>
-</section>
-
-<section class="section" id="categories">
-  <div class="section-head"><div><p class="eyebrow">SHOP BY MOMENT</p><h2>Made for the way families move.</h2></div><a href="#shop" class="text-link">View all products →</a></div>
-  <div class="category-grid">
-    <a class="category-card" href="#shop" data-filter="Baby Essentials"><div class="category-image"><img src="assets/images/categories/baby-essentials.jpg" alt="Baby Essentials"></div><div class="category-body"><h3>Baby Essentials</h3><p>Thoughtful basics for everyday baby routines.</p><span>Shop now →</span></div></a>
-    <a class="category-card" href="#shop" data-filter="Parent Bags"><div class="category-image"><img src="assets/images/categories/parent-bags.jpg" alt="Parent Bags"></div><div class="category-body"><h3>Parent Bags</h3><p>Carry everything with a little more ease.</p><span>Shop now →</span></div></a>
-    <a class="category-card" href="#shop" data-filter="Nursery &amp; Decor"><div class="category-image"><img src="assets/images/categories/nursery-decor.jpg" alt="Nursery and Decor"></div><div class="category-body"><h3>Nursery &amp; Decor</h3><p>Create calmer, more organized spaces.</p><span>Shop now →</span></div></a>
-    <a class="category-card" href="#shop" data-filter="Feeding"><div class="category-image"><img src="assets/images/categories/feeding.jpg" alt="Feeding"></div><div class="category-body"><h3>Feeding</h3><p>Simple tools for everyday mealtimes.</p><span>Shop now →</span></div></a>
-    <a class="category-card" href="#shop" data-filter="Toys &amp; Activity"><div class="category-image"><img src="assets/images/categories/toys-activity.jpg" alt="Toys and Activity"></div><div class="category-body"><h3>Toys &amp; Activity</h3><p>Playful products for little moments.</p><span>Shop now →</span></div></a>
-    <a class="category-card" href="#shop" data-filter="Bath &amp; Care"><div class="category-image"><img src="assets/images/categories/bath-care.jpg" alt="Bath and Care"></div><div class="category-body"><h3>Bath &amp; Care</h3><p>Gentle essentials for daily care.</p><span>Shop now →</span></div></a>
-    <a class="category-card" href="#shop" data-filter="Home Organization"><div class="category-image"><img src="assets/images/categories/home-organization.jpg" alt="Home Organization"></div><div class="category-body"><h3>Home Organization</h3><p>Storage for the whole family.</p><span>Shop now →</span></div></a>
-    <a class="category-card" href="#shop" data-filter="Family Travel"><div class="category-image"><img src="assets/images/categories/family-travel.jpg" alt="Family Travel"></div><div class="category-body"><h3>Family Travel</h3><p>Practical pieces for life on the go.</p><span>Shop now →</span></div></a>
-    <a class="category-card" href="#shop" data-filter="Gifts &amp; Sets"><div class="category-image"><img src="assets/images/categories/gifts-sets.jpg" alt="Gifts and Sets"></div><div class="category-body"><h3>Gifts &amp; Sets</h3><p>Thoughtful bundles for growing families.</p><span>Shop now →</span></div></a>
-  </div>
-</section>
-
-<section class="section products-section" id="shop">
-  <div class="section-head"><div><p class="eyebrow">CURATED ESSENTIALS</p><h2>Everyday pieces, thoughtfully chosen.</h2></div>
-    <div class="filters" id="filters">
-      <button class="filter active" data-filter="All">All</button><button class="filter" data-filter="PARENT BAGS">Bags</button><button class="filter" data-filter="FEEDING">Feeding</button><button class="filter" data-filter="TOYS & ACTIVITY">Play</button><button class="filter" data-filter="BATH & CARE">Bath</button><button class="filter" data-filter="HOME ORGANIZATION">Organization</button><button class="filter" data-filter="GIFTS & SETS">Gifts</button>
-    </div>
-  </div>
-  <div class="product-grid" id="productGrid"></div>
-</section>
-
-<section class="values">
-  <div class="value"><strong>01</strong><h3>Calm design</h3><p>Warm neutrals and useful forms that feel at home in real spaces.</p></div>
-  <div class="value"><strong>02</strong><h3>Everyday function</h3><p>Products chosen around packing, feeding, bathing, playing and resetting.</p></div>
-  <div class="value"><strong>03</strong><h3>Family-first support</h3><p>Questions about a product or bundle? Our support team is here to help.</p></div>
-</section>
-
-<section class="newsletter" id="support">
-  <div><p class="eyebrow">STAY IN THE LOOP</p><h2>Helpful ideas for calmer family days.</h2><p>Join for new collection notes, organization tips and seasonal family essentials.</p></div>
-  <form id="newsletterForm"><input type="email" placeholder="Your email address" required><button class="primary-btn" type="submit">Join Nesta →</button></form>
-</section>
+<div class="topbar"><span>Free shipping on orders over $50</span><span>Thoughtful essentials for growing families</span><span>Support · +1 (833) 725-6428</span></div>
+<header class="header"><a class="brand" href="index.html"><img src="assets/logo.jpg" alt="NESTA Family Essentials"></a><nav><a href="index.html" class="active">Home</a><a href="shop.html">Shop</a><a href="index.html#categories">Categories</a><a href="about.html">Our Story</a><a href="contact.html">Contact</a></nav><div class="head-tools"><button id="searchOpen" class="tool" aria-label="Search">⌕</button><button id="bagOpen" class="tool bag">Bag <b id="bagCount">0</b></button></div></header>
+<main>
+<section class="hero-wrap"><div class="hero-copy"><p class="eyebrow">FAMILY ESSENTIALS</p><h1>For every small moment that matters.</h1><p>Practical essentials for parents, babies and an organized, happy family life.</p><a class="btn" href="shop.html">Shop the collection <span>→</span></a></div><div class="hero-image"><img src="assets/images/hero-family-real.jpg" alt="Warm family moment in a nursery setting"></div></section>
+<section class="service-row"><div><img src="assets/icons/truck.svg"><strong>Free U.S. shipping</strong><span>On orders over $50</span></div><div><b>✓</b><strong>Easy everyday choices</strong><span>Useful pieces for real routines</span></div><div><img src="assets/icons/heart.svg"><strong>Family focused</strong><span>Thoughtful products for every stage</span></div><div><b>24/7</b><strong>Support</strong><span>We are here to help</span></div></section>
+<section class="section" id="categories"><div class="section-title"><div><p class="eyebrow">SHOP BY MOMENT</p><h2>Made for the way families move.</h2></div><a href="shop.html">View all products →</a></div><div class="category-grid">
+<a class="category-card" href="shop.html?cat=Baby%20Essentials"><img src="assets/images/categories/baby-essentials.jpg" alt="Baby Essentials"><div><h3>Baby Essentials</h3><p>Thoughtful basics for everyday baby routines.</p><span>Shop now →</span></div></a>
+<a class="category-card" href="shop.html?cat=Parent%20Bags"><img src="assets/images/categories/parent-bags.jpg" alt="Parent Bags"><div><h3>Parent Bags</h3><p>Carry everything with a little more ease.</p><span>Shop now →</span></div></a>
+<a class="category-card" href="shop.html?cat=Nursery%20%26%20Decor"><img src="assets/images/categories/nursery-decor.jpg" alt="Nursery and Decor"><div><h3>Nursery &amp; Decor</h3><p>Create calmer, more organized spaces.</p><span>Shop now →</span></div></a>
+<a class="category-card" href="shop.html?cat=Feeding"><img src="assets/images/categories/feeding.jpg" alt="Feeding"><div><h3>Feeding</h3><p>Simple tools for everyday mealtimes.</p><span>Shop now →</span></div></a>
+<a class="category-card" href="shop.html?cat=Toys%20%26%20Activity"><img src="assets/images/categories/toys-activity.jpg" alt="Toys and Activity"><div><h3>Toys &amp; Activity</h3><p>Playful products for little moments.</p><span>Shop now →</span></div></a>
+<a class="category-card" href="shop.html?cat=Bath%20%26%20Care"><img src="assets/images/categories/bath-care.jpg" alt="Bath and Care"><div><h3>Bath &amp; Care</h3><p>Gentle essentials for daily care.</p><span>Shop now →</span></div></a>
+<a class="category-card" href="shop.html?cat=Home%20Organization"><img src="assets/images/categories/home-organization.jpg" alt="Home Organization"><div><h3>Home Organization</h3><p>Storage for the whole family.</p><span>Shop now →</span></div></a>
+<a class="category-card" href="shop.html?cat=Family%20Travel"><img src="assets/images/categories/family-travel.jpg" alt="Family Travel"><div><h3>Family Travel</h3><p>Practical pieces for life on the go.</p><span>Shop now →</span></div></a>
+<a class="category-card" href="shop.html?cat=Gifts%20%26%20Sets"><img src="assets/images/categories/gifts-sets.jpg" alt="Gifts and Sets"><div><h3>Gifts &amp; Sets</h3><p>Thoughtful bundles for growing families.</p><span>Shop now →</span></div></a>
+</div></section>
+<section class="section featured"><div class="section-title"><div><p class="eyebrow">CURATED ESSENTIALS</p><h2>Real products. Clearly presented.</h2></div><a href="shop.html">View all products →</a></div><div id="featuredGrid" class="product-grid"></div></section>
+<section class="story-band"><div><p class="eyebrow">THE NESTA APPROACH</p><h2>Useful first. Beautiful always.</h2></div><p>We choose pieces around real family routines: packing, feeding, bathing, playing, organizing and getting out the door. Every product is shown with a clean, dedicated photograph so you can see exactly what you are browsing.</p></section>
+<section class="newsletter"><div><p class="eyebrow">STAY IN THE LOOP</p><h2>Helpful ideas for calmer family days.</h2><p>New collections, practical organization notes and seasonal essentials.</p></div><form id="newsletter"><input type="email" placeholder="Your email address" required><button class="btn" type="submit">Join NESTA →</button></form></section>
 </main>
-
-<footer class="footer">
-  <div class="footer-brand"><img src="assets/logo.jpg" alt="NESTA Family Essentials"><p>Practical accessories for parents, babies and organized family life.</p></div>
-  <div><h4>Explore</h4><a href="#shop">Shop</a><a href="#categories">Collections</a><a href="#story">Our approach</a></div>
-  <div><h4>Support</h4><a href="mailto:support@nesta-family.com">support@nesta-family.com</a><a href="tel:+18005550148">+1 (800) 555-0148</a><span>Example location: Austin, TX 78701</span></div>
-  <div><h4>Policies</h4><a href="#" onclick="alert('Demo store: returns are handled through support.');return false;">Returns</a><a href="#" onclick="alert('Demo store: shipping information is available through support.');return false;">Shipping</a><a href="#" onclick="alert('Demo store privacy notice.');return false;">Privacy</a></div>
-  <div class="copyright">© 2026 NESTA Family Essentials. Demo storefront.</div>
-</footer>
-
-<div class="drawer-backdrop" id="backdrop"></div>
-<aside class="drawer" id="bagDrawer" aria-label="Shopping bag">
-  <button class="drawer-close" id="drawerClose">×</button><p class="eyebrow">YOUR BAG</p><h2>Ready for little moments.</h2>
-  <div id="bagItems" class="bag-items"><p class="empty">Your bag is empty.</p></div><div class="bag-total"><span>Subtotal</span><strong id="bagTotal">$0.00</strong></div>
-  <button class="primary-btn full" id="checkoutBtn">Continue to support →</button>
-</aside>
-
-<div class="search-panel" id="searchPanel"><button class="drawer-close" id="searchClose">×</button><p class="eyebrow">SEARCH NESTA</p><input id="searchInput" type="search" placeholder="Try “feeding”, “bags”, “bunny”…"><div id="searchResults" class="search-results"></div></div>
-
-<script>
-window.NESTA_PRODUCTS = [
-{"name":"Diaper Bag Backpack","category":"PARENT BAGS","description":"A roomy everyday backpack with organized compartments for parents on the move.","price":"$89.00","image":"assets/images/products/diaper-bag-backpack.jpg"},
-{"name":"Wooden Baby Play Gym","category":"TOYS & ACTIVITY","description":"A warm wood activity center designed for gentle play and discovery.","price":"$59.00","image":"assets/images/products/wooden-baby-play-gym.jpg"},
-{"name":"Convertible High Chair","category":"FEEDING","description":"A clean, practical feeding chair designed to grow with everyday routines.","price":"$129.00","image":"assets/images/products/convertible-high-chair.jpg"},
-{"name":"Silicone Feeding Set","category":"FEEDING","description":"Soft-toned bowls and utensils for simple, organized mealtimes.","price":"$39.00","image":"assets/images/products/silicone-feeding-set.jpg"},
-{"name":"Foldable Baby Bath Tub","category":"BATH & CARE","description":"A compact bathing essential designed for calm routines at home or away.","price":"$49.00","image":"assets/images/products/foldable-baby-bath-tub.jpg"},
-{"name":"Plush Stuffed Bunny","category":"TOYS & ACTIVITY","description":"A soft companion for nursery spaces, playtime and quiet moments.","price":"$29.00","image":"assets/images/products/plush-stuffed-bunny.jpg"},
-{"name":"Nursery Storage Organizer","category":"HOME ORGANIZATION","description":"Structured storage for everyday nursery essentials and small accessories.","price":"$42.00","image":"assets/images/products/nursery-storage-organizer.jpg"},
-{"name":"Wooden Activity Walker","category":"TOYS & ACTIVITY","description":"A tactile wooden walker that adds movement and play to growing routines.","price":"$69.00","image":"assets/images/products/wooden-activity-walker.jpg"},
-{"name":"Everyday Diaper Tote","category":"PARENT BAGS","description":"A flexible open tote that keeps bottles, wipes and changing essentials within reach.","price":"$74.00","image":"assets/images/products/everyday-diaper-tote.jpg"},
-{"name":"Soft Nursery Basket Set","category":"HOME ORGANIZATION","description":"A coordinated nursery basket filled with practical daily-care essentials.","price":"$54.00","image":"assets/images/products/soft-nursery-basket-set.jpg"},
-{"name":"Calm Bath-Time Set","category":"BATH & CARE","description":"Gentle bath-time pieces arranged for an easy, soothing routine.","price":"$35.00","image":"assets/images/products/calm-bath-time-set.jpg"},
-{"name":"Little Moments Gift Set","category":"GIFTS & SETS","description":"A thoughtful neutral bundle of soft, practical favorites for new families.","price":"$64.00","image":"assets/images/products/little-moments-gift-set.jpg"}
-];
-</script>
-<script src="app.js"></script>
-</body>
-</html>
+<footer><div class="footer-main"><div><img class="footer-logo" src="assets/logo.jpg" alt="NESTA"><p>Practical accessories for parents, babies and organized family life.</p></div><div><h4>Explore</h4><a href="shop.html">Shop</a><a href="index.html#categories">Categories</a><a href="about.html">Our Story</a></div><div><h4>Support</h4><a href="contact.html">Contact support</a><a href="mailto:support@nesta-family.com">support@nesta-family.com</a><a href="tel:+18337256428">+1 (833) 725-6428</a></div><div><h4>Information</h4><a href="shipping-returns.html">Shipping &amp; Returns</a><a href="privacy.html">Privacy</a><span>Example location: Charlotte, NC 28202</span></div></div><div class="copyright">© 2026 NESTA Family Essentials. Demo storefront.</div></footer>
+<div id="searchPanel" class="overlay"><div class="panel"><button class="close" data-close>×</button><p class="eyebrow">SEARCH NESTA</p><input id="searchInput" placeholder="Search bags, feeding, toys..." autofocus><div id="searchResults"></div></div></div>
+<div id="bagPanel" class="overlay"><div class="bag-panel"><button class="close" data-close>×</button><p class="eyebrow">YOUR BAG</p><h2>Ready for little moments.</h2><div id="bagItems"></div><div class="bag-total"><span>Subtotal</span><strong id="bagTotal">$0.00</strong></div><a class="btn full" href="contact.html">Continue to support →</a></div></div>
+<script src="app.js"></script></body></html>
